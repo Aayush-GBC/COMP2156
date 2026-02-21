@@ -2,10 +2,14 @@
   "name": "comp2156",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://Aayush-GBC.github.io/COMP2156",
   "description": "",
-  "homepage": "https://Aayush-GBC.github.io/COMP2156"
   "main": "index.js",
   "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
